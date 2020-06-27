@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#454545"
+    tools:context=".MainActivity" tools:targetApi="lollipop">
+
+    <ImageButton
+        android:id="@+id/audkick"
+        android:layout_width="334dp"
+        android:layout_height="183dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:contentDescription="@string/kick"
+        android:src="@drawable/kick" />
+
+    <ImageButton
+        android:id="@+id/audsnare"
+        android:layout_width="337dp"
+        android:layout_height="184dp"
+        android:layout_alignEnd="@id/audsnare"
+        android:layout_alignRight="@id/audsnare"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:contentDescription="@string/snare"
+        android:src="@drawable/snare" />
+
+    <ImageButton
+        android:id="@+id/audhat"
+        android:layout_width="297dp"
+        android:layout_height="183dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/hat"
+        android:src="@drawable/hat" />
+
+</RelativeLayout>
