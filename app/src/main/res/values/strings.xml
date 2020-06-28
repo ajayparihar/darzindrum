@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">DarzinDrums</string>
-    <string name="kick">KICK</string>
     <string name="snare">SNARE</string>
     <string name="hat">HAT</string>
+    <string name="kick">KICK</string>
+    <string name="darzin_drums">DARZIN DRUMS</string>
 </resources>
