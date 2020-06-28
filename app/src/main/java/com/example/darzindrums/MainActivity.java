@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,21 +18,21 @@ public class MainActivity extends AppCompatActivity {
         final MediaPlayer audsnare = MediaPlayer.create(this, R.raw.ds);
         final MediaPlayer audhat = MediaPlayer.create(this, R.raw.dh);
 
-        final ImageButton mikick= this.findViewById(R.id.audkick);
+        final Button mikick= this.findViewById(R.id.audkick);
         mikick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 audkick.start();
             }
         });
-        final ImageButton misnare= this.findViewById(R.id.audsnare);
+        final Button misnare= this.findViewById(R.id.audsnare);
         misnare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 audsnare.start();
             }
         });
-        final ImageButton mihat= this.findViewById(R.id.audhat);
+        final Button mihat= this.findViewById(R.id.audhat);
         mihat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
