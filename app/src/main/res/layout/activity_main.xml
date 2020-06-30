@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/audsnare"
-        android:layout_width="238dp"
-        android:layout_height="248dp"
+        android:layout_width="wrap_content"
+        android:layout_height="218dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -19,14 +19,14 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="463dp"
-        android:layout_marginRight="463dp"
-        android:layout_marginBottom="113dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="467dp"
+        android:layout_marginRight="467dp"
+        android:layout_marginBottom="108dp"
         android:background="@drawable/snare_style"
         android:text="@string/snare"
         android:textColor="#ffffff"
-        android:textSize="50sp" />
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/audhat"
@@ -40,19 +40,19 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="481dp"
         android:layout_marginLeft="481dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="85dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginBottom="108dp"
         android:background="@drawable/hat_style"
         android:text="@string/hat"
         android:textColor="#ffffff"
-        android:textSize="50sp" />
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/audkick"
         android:layout_width="220dp"
-        android:layout_height="219dp"
+        android:layout_height="220dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -68,26 +68,25 @@
         android:background="@drawable/kick_style"
         android:text="@string/kick"
         android:textColor="#ffffff"
-        android:textSize="50sp" />
+        android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="297dp"
-        android:layout_height="63dp"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="230dp"
-        android:layout_marginLeft="230dp"
-        android:layout_marginEnd="203dp"
-        android:layout_marginRight="203dp"
-        android:layout_marginBottom="349dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/darzin_drums"
-        android:textColor="#ff0000"
-        android:textSize="35sp" />
+        android:layout_marginStart="259dp"
+        android:layout_marginLeft="259dp"
+        android:layout_marginEnd="263dp"
+        android:layout_marginRight="263dp"
+        android:layout_marginBottom="330dp"
+        android:text="@string/text"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        tools:text="DRUMS" />
 
 </RelativeLayout>
